@@ -94,3 +94,19 @@ footer{border-top:1px solid var(--line);padding:45px 0 25px;background:#060709}.
 }
 .site-credit a{font-weight:700;text-decoration:none}
 .site-credit a:hover{opacity:.8}
+
+/* V6.6 exact Laikve Digital footer credit */
+.site-credit{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  gap:10px;
+  padding:16px 20px 20px;
+  font-size:11px;
+  letter-spacing:.08em;
+  text-transform:uppercase;
+  opacity:.78;
+}
+.site-credit a{display:inline-flex;align-items:center}
+.site-credit img{display:block;width:82px;height:auto}
+@media(max-width:700px){.site-credit img{width:74px}}
