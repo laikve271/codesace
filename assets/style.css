@@ -119,3 +119,23 @@ footer{border-top:1px solid var(--line);padding:45px 0 25px;background:#060709}.
 .employment-card .employment-apply{margin-top:auto}
 .contact-form select{width:100%;background:#111418;color:#fff;border:1px solid #333941;padding:14px;font:inherit}
 @media(max-width:760px){.employment-grid{grid-template-columns:1fr}.employment-card{min-height:0}}
+
+/* V6.8 Employment photo + clean form layout */
+.employment-photo-section{padding-top:0}
+.employment-photo{display:block;width:100%;height:500px;object-fit:cover;object-position:center 55%;border:1px solid #24272b}
+.employment-form{margin-top:30px;max-width:100%}
+.employment-form-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px;margin-bottom:20px}
+.employment-form label{display:block}
+.employment-form label span{display:block;margin-bottom:8px;font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase}
+.employment-form input,.employment-form select,.employment-form textarea{
+  display:block;width:100%;box-sizing:border-box;background:#0c0e10;color:#fff;
+  border:1px solid #333941;padding:14px 15px;font:inherit
+}
+.employment-form textarea{resize:vertical;min-height:150px}
+.employment-message{margin-bottom:20px}
+.employment-form .btn{margin-top:0}
+.employment-form .concept-note{margin-top:14px}
+@media(max-width:760px){
+  .employment-photo{height:330px}
+  .employment-form-grid{grid-template-columns:1fr}
+}
