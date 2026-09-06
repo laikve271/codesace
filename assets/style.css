@@ -75,3 +75,10 @@ footer{border-top:1px solid var(--line);padding:45px 0 25px;background:#060709}.
   .about-photo-strip img{height:300px}
   .service-block img{height:240px}
 }
+
+/* V6.2 project image rendering fix */
+.project-placeholder{
+  background-position:center !important;
+  background-size:cover !important;
+  background-repeat:no-repeat !important;
+}
