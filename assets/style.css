@@ -155,3 +155,22 @@ footer{border-top:1px solid var(--line);padding:45px 0 25px;background:#060709}.
   object-position:center !important;
   border:0 !important;
 }
+
+/* V7.0 Full Employment listings */
+.job-detail{margin-top:34px;padding:38px;border:1px solid #24272b;background:#0c0e10}
+.job-detail + .job-detail{margin-top:28px}
+.job-detail>h2{font-size:42px;margin:8px 0 18px}
+.job-detail>p{max-width:980px}
+.job-columns{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:46px;margin-top:30px}
+.job-detail h3{font-size:22px;margin:0 0 14px}
+.job-detail ul{margin:0;padding-left:20px}
+.job-detail li{margin:0 0 10px;line-height:1.55}
+.job-offer,.job-apply{margin-top:30px;padding-top:26px;border-top:1px solid #24272b}
+.job-offer ul{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px 35px}
+.job-apply p{max-width:950px}
+.job-apply .btn{margin-top:8px}
+@media(max-width:760px){
+ .job-detail{padding:24px}
+ .job-detail>h2{font-size:32px}
+ .job-columns,.job-offer ul{grid-template-columns:1fr}
+}
