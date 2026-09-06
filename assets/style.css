@@ -82,3 +82,15 @@ footer{border-top:1px solid var(--line);padding:45px 0 25px;background:#060709}.
   background-size:cover !important;
   background-repeat:no-repeat !important;
 }
+
+/* Laikve Digital site credit */
+.site-credit{
+  text-align:center;
+  padding:16px 20px 20px;
+  font-size:12px;
+  letter-spacing:.08em;
+  text-transform:uppercase;
+  opacity:.58;
+}
+.site-credit a{font-weight:700;text-decoration:none}
+.site-credit a:hover{opacity:.8}
