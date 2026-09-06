@@ -139,3 +139,19 @@ footer{border-top:1px solid var(--line);padding:45px 0 25px;background:#060709}.
   .employment-photo{height:330px}
   .employment-form-grid{grid-template-columns:1fr}
 }
+
+/* V6.9 Employment image — full-width, uncropped */
+.employment-photo-section{padding:0 !important}
+.employment-photo-section .container{
+  width:100% !important;
+  max-width:none !important;
+  margin:0 !important;
+}
+.employment-photo{
+  width:100% !important;
+  height:auto !important;
+  max-height:none !important;
+  object-fit:contain !important;
+  object-position:center !important;
+  border:0 !important;
+}
